@@ -7,11 +7,11 @@
 
 function factorial(n){
     
-    let factorial = 1;
+    let fact = 1;
     for(i = 1; i <= n; i++){
-        factorial = factorial * i;
+        fact = fact * i;
     }
-    return factorial;
+    return fact;
 }
 
 let result = factorial(5);
